@@ -13,9 +13,9 @@
 
 <h3 align="left">About me</h3>
 
-I am a master's student at <a href="https://www.hse.ru/ma/mds/">HSE FCS MDS '27</a> with a background in analytics and product research. Right now I’m moving deeper into data engineering and building hands-on projects around ETL pipelines, distributed data processing, backend services, and system reliability. I’m especially interested in how data systems work under the hood and how to make them observable and robust. Over time, I want to expand this focus toward ML systems and the engineering practices required to run data-intensive and intelligent services reliably.
+I am a master’s student in Data Science at <a href="https://www.hse.ru/ma/mds/">HSE FCS MDS '27</a> with analytics experience in accounting outsourcing and online education. Currently focused on data engineering, I build hands-on projects around ETL pipelines, distributed data processing, backend services, and system reliability. I am particularly interested in understanding how data systems work under the hood and how to make them robust and reliable.
 
-Alongside this, I continue to deepen my engineering background through additional VK Education programs:
+Alongside this, I continue to build my engineering background through VK Education programs:
 
 - [Applied Data Analytics](https://education.vk.company/program/data-analytics)
 - [DevOps/SRE](https://education.vk.company/program/devops-sre)
@@ -38,54 +38,25 @@ Alongside this, I continue to deepen my engineering background through additiona
 
 <h3 align="left">Current projects</h3>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/tadzhnahal/etl-ecommerce-clickstream">etl-ecommerce-clickstream</a></h4>
-      <p>
-        ETL pipeline for ingesting, transforming, and serving clickstream data.
-      </p>
-      <p>
-        <code>python</code> <code>sql</code> <code>spark</code> <code>pyspark</code>
-        <code>postgresql</code> <code>clickhouse</code> <code>fastapi</code>
-        <code>celery</code> <code>redis</code> <code>docker</code> <code>kubernetes</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/tadzhnahal/reliability-lab">reliability-lab</a></h4>
-      <p>
-        Practice environment for Linux, networking, containers, monitoring, and reliability scenarios.
-      </p>
-      <p>
-        <code>python</code> <code>fastapi</code> <code>bash</code>
-        <code>docker</code> <code>github actions</code> <code>prometheus</code>
-        <code>grafana</code> <code>terraform</code> <code>ansible</code>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/tadzhnahal/study-notes">study-notes</a></h4>
-      <p>
-        Notes, experiments, and homeworks collected in one place.
-      </p>
-      <p>
-        <code>jupyter notebook</code> <code>python</code> <code>spark</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/tadzhnahal/analytics-impact-map">analytics-impact-map</a></h4>
-      <p>
-        Analytical project for mapping relationships between metrics, product changes, and business impact.
-      </p>
-      <p>
-        <code>python</code> <code>fastapi</code> <code>pydantic</code>
-        <code>postgresql</code> <code>psycopg</code> <code>streamlit</code>
-        <code>docker compose</code> <code>git</code>
-      </p>
-    </td>
-  </tr>
-</table>
+- <a href="https://github.com/tadzhnahal/reliability-lab"><b>reliability-lab</b></a>  
+  Practice environment for Linux, networking, containers, monitoring, and reliability scenarios around a small service.  
+  <code>in progress</code>
+
+- <a href="https://github.com/tadzhnahal/analytics-impact-map"><b>analytics-impact-map</b></a>  
+  Service for linking data components, visualizing dependencies between them, and tracking how changes propagate across the system.  
+  <code>in progress</code>
+
+- <a href="https://github.com/tadzhnahal/etl-ecommerce-clickstream"><b>etl-ecommerce-clickstream</b></a>  
+  ETL service that loads store events into PostgreSQL, processes them with Spark and onETL, and writes cleaned data to ClickHouse. Includes FastAPI, Celery, Redis, Docker Compose, and Kubernetes manifests.  
+  <code>done — thinking about the next iteration</code>
+
+- <a href="https://github.com/tadzhnahal/yadro-infra-platform-task"><b>yadro-infra-platform-task</b></a>  
+  Small infrastructure task with a Python HTTP checker, a Docker image, and an Ansible playbook that prepares Docker, builds the image, runs the container, and checks logs.  
+  <code>done</code>
+
+- <a href="https://github.com/tadzhnahal/cdek-dba-task"><b>cdek-dba-task</b></a>  
+  PostgreSQL schema for a parcel delivery service with counterparties, offices, parcel statuses, tariff versions, movement history, and an ER diagram.  
+  <code>done</code>
 
 ---
 <br>
